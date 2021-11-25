@@ -15,7 +15,7 @@ export function App() {
       </header>
       <main>
         <Routes>
-          <Route exact path="/movies/:movieID"  element={<MovieDetails />} />  
+          <Route exact path="/movies/:movieId"  element={<MovieDetails />} />  
           {/* <Route exact path="/movie"  element={LandingPage} /> */}
           <Route exact path="/"  element={<LandingPage/>} />
           <Route path="/">404</Route>
