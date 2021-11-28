@@ -8,7 +8,7 @@ export function App() {
     <Router>
       <header>
         <Link to="/">
-          <h1 className={styles.title}>Movies</h1>
+          <h1 className={styles.title}>Movies TRON</h1>
         </Link>
         {/* <Link to="/">Home</Link>
         <br />
